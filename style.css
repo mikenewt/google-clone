@@ -1,0 +1,199 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.container, .wrapper, .header, .main {
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#account {
+    float: right;
+    margin: 15px -10px;;
+}
+
+#account li {
+    float: left;
+    list-style: none;
+    font-family: Arial;
+    font-size: 13px;
+    margin-right: 15px;
+    line-height: 24px;
+    vertical-align: middle;
+}
+
+#account #sign-in {
+    background: -webkit-linear-gradient(top,#4387fd,#4683ea);
+    border: 1px solid #4285f4;
+    border-radius: 2px;
+    line-height: 28px;
+    padding: 6px 12px;
+}
+
+#account #sign-in a {
+    font-weight: bold;
+    color: #ffffff;
+}
+
+#account li img {
+    height: 30px;
+    width: 30px;
+    
+}
+
+.main {
+    display: block;
+    text-align: center;
+    clear: both;
+    margin: 0 auto;
+    min-height: 500px;
+    padding-bottom: 35px;
+}
+
+.main #logo {
+    padding-bottom: 35px;
+}
+
+#search table {
+    display: inline-block;
+    border: 1px solid grey;
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+#search table #search-field {
+    border: none;
+    padding: 3px;
+    margin: 0px;
+    height: 20px;
+    width: 523px;
+}
+
+#search #mic {
+    background: url(images/microphone.png) no-repeat center;
+    background-size: 23px 23px;
+    display: inline-block;
+    height: 27px;
+    width: 29px;
+    padding: 0px;
+    margin: 0px;
+}
+
+#buttons {
+    padding-top: 15px;
+}
+
+#buttons #button-list li {
+    list-style: none;
+    font-family: Arial;
+    font-size: 11px;
+    font-weight: bold;
+}
+#list-wrapper {
+    display: inline-block;
+    margin: 0 8px;
+    padding: 0 8px;
+    background: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+    border: 1px solid #dcdcdc;
+    border-radius: 2px;
+    line-height: 29px;
+    height: 29px;
+}
+
+.footer {
+    display: block;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+}
+
+.footer ul {
+    list-style: none;
+    font-family: Arial;
+    color: #666;
+    font-size: 13px;
+}
+
+.footer #foot-wrapper #left-wrapper {
+    float: left;
+    padding-left: 15px;
+}
+
+.footer #foot-wrapper #right-wrapper {
+    float: right;
+    padding-right: 15px;
+}
+
+.footer #foot-wrapper li {
+    display: inline-block;
+    line-height: 40px;
+    margin: 0 9px;
+    vertical-align: middle;
+}
